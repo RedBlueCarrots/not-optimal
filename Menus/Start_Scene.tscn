@@ -1,0 +1,644 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Menu_Assets/start_scene.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Themes/Win.tres" type="Theme" id=2]
+[ext_resource path="res://Menu_Assets/logo.png" type="Texture" id=3]
+[ext_resource path="res://Menu_Assets/Host_Button_Highlighted.png" type="Texture" id=4]
+[ext_resource path="res://Menu_Assets/Host_Button_Unhighlighted.png" type="Texture" id=5]
+[ext_resource path="res://Menu_Assets/Join_Button_Highlighted.png" type="Texture" id=6]
+[ext_resource path="res://Menu_Assets/Join_Button_Unhighlighted.png" type="Texture" id=7]
+[ext_resource path="res://Menu_Assets/Options_Button_Unhighlighted.png" type="Texture" id=8]
+[ext_resource path="res://Menu_Assets/Options_Button_Highlighted.png" type="Texture" id=9]
+[ext_resource path="res://Menu_Assets/Exit_Button_Highlighted.png" type="Texture" id=10]
+[ext_resource path="res://Menu_Assets/Exit_Button_Unhighlighted.png" type="Texture" id=11]
+[ext_resource path="res://Menus/Start_Scene.gd" type="Script" id=12]
+[ext_resource path="res://Menus/Options.tscn" type="PackedScene" id=13]
+
+[sub_resource type="Environment" id=1]
+background_mode = 1
+background_color = Color( 1, 1, 1, 1 )
+ambient_light_energy = 0.0
+
+[sub_resource type="Animation" id=2]
+resource_name = "Start_Scene"
+length = 12.0
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Camera:translation:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( -10, -0.25, 0, 1.32903, 0.354073, 2.3075, -2.06359, -0.210418, 0.57, -0.0621806, 2.3075, -2.06359, -0.210418, 0.57, -0.0621806 ),
+"times": PoolRealArray( 0.5, 4.6, 10 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("Camera:translation:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 8, -0.25, 0, 0.643077, -2.17679, 4, -2.32082, -0.0157766, 0.18, -0.0671864, 4, -2.32082, -0.0157766, 0.18, -0.0671864 ),
+"times": PoolRealArray( 0.5, 4.6, 10 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("Camera:translation:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 12, -0.25, 0, 0.45, -3.60141, 8, -3.17826, -0.0268631, 0.24, -0.0522962, 8, -3.17826, -0.0268631, 0.24, -0.0522962 ),
+"times": PoolRealArray( 0.5, 4.6, 10 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("Camera:rotation_degrees:x")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( -40, -0.25, 0, 0.771692, 7.54802, -19.8546, -2.49231, 3.10091, 0.25, 0, -19.8546, -0.0108747, -0.0354347, 0.25, 0 ),
+"times": PoolRealArray( 0.5, 4.6, 10 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("Camera:rotation_degrees:y")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( -50, -0.25, 0, 1.41477, -0.762817, 24.8683, -2.14933, 6.41888, 0.25, 0, 24.8683, -0.0323095, 0.0264473, 0.25, 0 ),
+"times": PoolRealArray( 0.5, 4.6, 10 )
+}
+tracks/5/type = "bezier"
+tracks/5/path = NodePath("Camera:rotation_degrees:z")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0.5, 4.6, 10 )
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Control/Label:margin_top")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0.5, 1.5, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ -199.0, -199.0, 24.0 ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Control/Label:margin_bottom")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0.5, 1.5, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ -98.0, -98.0, 0.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Control/HBoxContainer:margin_top")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0.5, 1.5, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 32.0, 32.0, -150.0 ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Control/HBoxContainer/VBox1/Host:disabled")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 3.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Control/HBoxContainer/VBox1/Options:disabled")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 3.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Control/HBoxContainer/VBox2/Join:disabled")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0, 3.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Control/HBoxContainer/VBox2/Exit:disabled")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0, 3.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "To_Image"
+length = 2.3
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Camera:translation:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 2.3075, -2.06359, -0.210418, 0.57, -0.0621806, -1.6, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 2 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("Camera:translation:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 4, -2.32082, -0.0157766, 0.18, -0.0671864, 5.5, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 2 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("Camera:translation:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 8, -3.17826, -0.0268631, 0.24, -0.0522962, 0.679, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 2 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("Camera:rotation_degrees:x")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( -19.8546, -0.0108747, -0.0354347, 0.25, 0, -90, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 2 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("Camera:rotation_degrees:y")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( 24.8683, -0.0323095, 0.0264473, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 2 )
+}
+tracks/5/type = "bezier"
+tracks/5/path = NodePath("Camera:rotation_degrees:z")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 2 )
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Control/Label:margin_top")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 1.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 24.0, -200.0 ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Control/HBoxContainer:margin_top")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 1.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ -150.0, 36.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Control/HBoxContainer/VBox1/Host:disabled")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Control/HBoxContainer/VBox1/Options:disabled")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Control/HBoxContainer/VBox2/Join:disabled")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Control/HBoxContainer/VBox2/Exit:disabled")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/12/type = "method"
+tracks/12/path = NodePath(".")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 2.3 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "lobby_settings"
+} ]
+}
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 12 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+material/60 = null
+material/61 = null
+material/62 = null
+material/63 = null
+material/64 = null
+material/65 = null
+material/66 = null
+material/67 = null
+material/68 = null
+material/69 = null
+material/70 = null
+material/71 = null
+material/72 = null
+material/73 = null
+material/74 = null
+material/75 = null
+material/76 = null
+material/77 = null
+material/78 = null
+material/79 = null
+material/80 = null
+material/81 = null
+material/82 = null
+material/83 = null
+material/84 = null
+material/85 = null
+material/86 = null
+material/87 = null
+material/88 = null
+material/89 = null
+material/90 = null
+material/91 = null
+material/92 = null
+material/93 = null
+material/94 = null
+material/95 = null
+material/96 = null
+material/97 = null
+material/98 = null
+material/99 = null
+material/100 = null
+material/101 = null
+material/102 = null
+material/103 = null
+material/104 = null
+material/105 = null
+material/106 = null
+material/107 = null
+material/108 = null
+material/109 = null
+material/110 = null
+material/111 = null
+material/112 = null
+material/113 = null
+material/114 = null
+material/115 = null
+material/116 = null
+material/117 = null
+material/118 = null
+material/119 = null
+material/120 = null
+material/121 = null
+material/122 = null
+material/123 = null
+material/124 = null
+material/125 = null
+material/126 = null
+material/127 = null
+material/128 = null
+material/129 = null
+material/130 = null
+material/131 = null
+material/132 = null
+material/133 = null
+material/134 = null
+material/135 = null
+material/136 = null
+material/137 = null
+material/138 = null
+material/139 = null
+material/140 = null
+material/141 = null
+material/142 = null
+material/143 = null
+material/144 = null
+material/145 = null
+material/146 = null
+material/147 = null
+material/148 = null
+material/149 = null
+material/150 = null
+material/151 = null
+material/152 = null
+material/153 = null
+material/154 = null
+material/155 = null
+material/156 = null
+material/157 = null
+material/158 = null
+material/159 = null
+material/160 = null
+material/161 = null
+material/162 = null
+material/163 = null
+material/164 = null
+material/165 = null
+material/166 = null
+material/167 = null
+material/168 = null
+material/169 = null
+material/170 = null
+material/171 = null
+material/172 = null
+material/173 = null
+material/174 = null
+material/175 = null
+material/176 = null
+material/177 = null
+material/178 = null
+material/179 = null
+material/180 = null
+material/181 = null
+material/182 = null
+material/183 = null
+material/184 = null
+material/185 = null
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 1 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.519072, 0.854731, 0, -0.854731, 0.519072, 0, 5.4031, 0 )
+light_color = Color( 1, 0.972549, 0.886275, 1 )
+light_energy = 6.57
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -1.6, 5.5, 0.679 )
+current = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Start_Scene"
+anims/Start_Scene = SubResource( 2 )
+anims/To_Image = SubResource( 3 )
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="TextureRect" parent="Control"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -186.0
+margin_top = -200.0
+margin_right = 186.0
+margin_bottom = -98.0
+rect_scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 3 )
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+anchor_left = 0.5
+anchor_top = 0.95
+anchor_right = 0.5
+anchor_bottom = 0.95
+margin_left = -248.0
+margin_top = 36.0
+margin_right = 248.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBox1" type="VBoxContainer" parent="Control/HBoxContainer"]
+margin_right = 242.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Host" type="TextureButton" parent="Control/HBoxContainer/VBox1"]
+margin_right = 242.0
+margin_bottom = 69.0
+disabled = true
+texture_normal = ExtResource( 5 )
+texture_hover = ExtResource( 4 )
+
+[node name="HSeparator" type="HSeparator" parent="Control/HBoxContainer/VBox1"]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 73.0
+margin_right = 242.0
+margin_bottom = 77.0
+
+[node name="Options" type="TextureButton" parent="Control/HBoxContainer/VBox1"]
+margin_top = 81.0
+margin_right = 242.0
+margin_bottom = 150.0
+disabled = true
+texture_normal = ExtResource( 8 )
+texture_hover = ExtResource( 9 )
+
+[node name="VSeparator" type="VSeparator" parent="Control/HBoxContainer"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 246.0
+margin_right = 250.0
+margin_bottom = 150.0
+
+[node name="VBox2" type="VBoxContainer" parent="Control/HBoxContainer"]
+margin_left = 254.0
+margin_right = 496.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Join" type="TextureButton" parent="Control/HBoxContainer/VBox2"]
+margin_right = 242.0
+margin_bottom = 69.0
+disabled = true
+texture_normal = ExtResource( 7 )
+texture_hover = ExtResource( 6 )
+
+[node name="HSeparator" type="HSeparator" parent="Control/HBoxContainer/VBox2"]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 73.0
+margin_right = 242.0
+margin_bottom = 77.0
+
+[node name="Exit" type="TextureButton" parent="Control/HBoxContainer/VBox2"]
+margin_top = 81.0
+margin_right = 242.0
+margin_bottom = 150.0
+texture_normal = ExtResource( 11 )
+texture_hover = ExtResource( 10 )
+
+[node name="Options" parent="Control" instance=ExtResource( 13 )]
+visible = false
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.98529, -1.19052 )
+light_energy = 10.0
+light_specular = 0.07
+shadow_enabled = true
+omni_range = 1385.5
+
+[node name="OmniLight2" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.152, -15.7045 )
+light_energy = 10.0
+light_specular = 0.07
+shadow_enabled = true
+omni_range = 607.2
+[connection signal="pressed" from="Control/HBoxContainer/VBox1/Host" to="." method="_on_Host_pressed"]
+[connection signal="pressed" from="Control/HBoxContainer/VBox1/Options" to="." method="_on_Options_pressed"]
+[connection signal="pressed" from="Control/HBoxContainer/VBox2/Join" to="." method="_on_Join_pressed"]
+[connection signal="pressed" from="Control/HBoxContainer/VBox2/Exit" to="." method="_on_Exit_pressed"]

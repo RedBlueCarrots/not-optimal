@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Other_Images/screenshot.png" type="Texture" id=1]
+
+[node name="Waiting_Room" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 512, 300 )
+z_index = -4096
+texture = ExtResource( 1 )

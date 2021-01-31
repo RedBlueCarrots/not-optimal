@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="Optimal_Logo.svg"
+   inkscape:export-filename="C:\Users\RedBlueCarrots\OneDrive\Documents\Game_Dev\Uno_v2\Menu_Assets\logo.png"
+   inkscape:export-xdpi="291.16299"
+   inkscape:export-ydpi="291.16299">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="413.90263"
+     inkscape:cy="186.85805"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#cccccc;fill-opacity:0.401606;stroke:none;stroke-width:1.81722;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path939"
+       cx="82.576744"
+       cy="88.095421"
+       rx="42.832966"
+       ry="24.346729"
+       transform="rotate(-17.808553)" />
+    <path
+       id="path866"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0.0079375px;word-spacing:0px;text-anchor:middle;stroke:#a02c2c;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#a02c2c"
+       d="M 305.80664 148.81836 L 305.80664 165.88477 L 311.7793 165.88477 L 311.7793 204.28516 L 328.8457 204.28516 L 328.8457 200 L 320.35156 200 L 320.35156 161.59961 L 314.37695 161.59961 L 314.37695 148.875 C 313.62934 148.84688 312.88149 148.81836 312.12109 148.81836 L 305.80664 148.81836 z M 345.91406 148.81836 L 345.91406 150.97852 C 349.9781 153.35956 352.84944 156.04168 354.48438 159.03906 L 354.48438 148.81836 L 345.91406 148.81836 z M 337.41797 171.83984 L 337.41797 179.57422 C 337.92351 180.00967 338.425 180.47194 338.91602 180.99023 C 343.58091 185.93957 345.91406 193.70381 345.91406 204.28516 L 362.98047 204.28516 L 362.98047 200 L 354.48438 200 C 354.48438 189.41866 352.15122 181.65246 347.48633 176.70312 C 344.41433 173.46045 341.05886 171.83984 337.41797 171.83984 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path870"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0.0079375px;word-spacing:0px;text-anchor:middle;stroke:#a02c2c;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#a02c2c"
+       d="M 421.0332 148.81836 L 421.0332 165.88477 L 444.07422 165.88477 L 444.07422 204.28516 L 461.14062 204.28516 L 461.14062 200 L 452.64453 200 L 452.64453 161.59961 L 429.60547 161.59961 L 429.60547 148.81836 L 421.0332 148.81836 z M 469.71094 161.59961 L 469.71094 165.88477 L 478.20703 165.88477 L 478.20703 161.59961 L 469.71094 161.59961 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path868"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0.0079375px;word-spacing:0px;text-anchor:middle;stroke:#782121;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#782121"
+       d="M 387.26172 149.87891 C 382.86965 151.13508 378.9188 153.50893 375.41602 157.01172 C 370.01157 162.41617 367.31055 168.92962 367.31055 176.55273 C 367.31055 184.23274 370.01157 190.77524 375.41602 196.17969 C 380.82046 201.58414 387.36294 204.28516 395.04297 204.28516 C 401.23085 204.28516 406.68806 202.50436 411.41406 198.94336 C 408.9572 199.64383 406.35965 200 403.61523 200 C 395.93521 200 389.39273 197.29703 383.98828 191.89258 C 378.58384 186.48813 375.88086 179.94759 375.88086 172.26758 C 375.88086 164.64446 378.58384 158.12906 383.98828 152.72461 C 385.03913 151.67377 386.13084 150.72755 387.26172 149.87891 z M 403.61523 161.59961 C 400.657 161.59961 398.12443 162.65292 396.01953 164.75781 C 395.65956 165.11779 395.34358 165.49667 395.04688 165.88477 C 397.94653 165.88572 400.44882 166.93904 402.55273 169.04297 C 404.65763 171.14786 405.70898 173.6514 405.70898 176.55273 C 405.70898 178.96525 404.99759 181.08862 403.59766 182.93359 C 403.60361 182.9336 403.60928 182.93359 403.61523 182.93359 C 406.57345 182.93359 409.07505 181.90933 411.12305 179.86133 C 413.22794 177.75644 414.28125 175.2258 414.28125 172.26758 C 414.28125 169.36624 413.22794 166.8627 411.12305 164.75781 C 409.01818 162.65292 406.51658 161.59961 403.61523 161.59961 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path845"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0.0079375px;word-spacing:0px;text-anchor:middle;stroke:#c83737;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#d35f5f"
+       d="m 98.306285,52.916664 h -4.51556 q 0,-4.199471 -1.85138,-6.163739 -1.219201,-1.286935 -2.66418,-1.286935 v 7.450674 h -4.51556 v -10.16001 h -1.580446 v -4.51556 h 1.670757 q 3.18347,0 5.802495,1.241779 2.325513,1.106312 3.138314,2.596447 v -3.838226 h 4.51556 z" />
+    <path
+       id="path847"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0.0079375px;word-spacing:0px;text-anchor:middle;stroke:#c83737;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#d35f5f"
+       d="m 114.1275,45.578879 q 0,3.025425 -2.16747,5.192894 -2.14489,2.144891 -5.17031,2.144891 -3.04801,0 -5.1929,-2.144891 -2.144888,-2.144891 -2.144888,-5.192894 0,-3.025425 2.144888,-5.170316 2.16747,-2.167469 5.1929,-2.167469 3.02542,0 5.17031,2.167469 2.16747,2.144891 2.16747,5.170316 z m -4.51556,0 q 0,-1.151468 -0.83538,-1.986847 -0.83537,-0.835378 -1.98684,-0.835378 -1.17405,0 -2.00943,0.835378 -0.8128,0.812801 -0.8128,1.986847 0,1.174046 0.8128,2.009424 0.83538,0.812801 2.00943,0.812801 1.17404,0 1.98684,-0.812801 0.83538,-0.835378 0.83538,-2.009424 z" />
+    <path
+       id="path849"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0.0079375px;word-spacing:0px;text-anchor:middle;stroke:#c83737;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#d35f5f"
+       d="m 128.79337,42.756654 h -4.51556 v 10.16001 h -4.51556 v -10.16001 h -6.096 v -4.51556 h 15.12712 z" />
+    <path
+       id="path872"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke:#2ca02c;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#2ca02c"
+       d="M 217.35938 218.14648 C 212.96736 219.40267 209.01837 221.7746 205.51562 225.27734 C 200.11118 230.68179 197.4082 237.19524 197.4082 244.81836 C 197.4082 252.49837 200.11118 259.04086 205.51562 264.44531 C 210.92007 269.84976 217.46062 272.55273 225.14062 272.55273 C 231.32907 272.55273 236.78737 270.77257 241.51367 267.21094 C 239.05644 267.91164 236.45778 268.26758 233.71289 268.26758 C 226.03288 268.26758 219.49039 265.56461 214.08594 260.16016 C 208.68149 254.75571 205.97852 248.21321 205.97852 240.5332 C 205.97852 232.91008 208.68149 226.39664 214.08594 220.99219 C 215.13678 219.94134 216.22849 218.99513 217.35938 218.14648 z M 233.71289 229.86719 C 230.75466 229.86719 228.22208 230.91855 226.11719 233.02344 C 225.75654 233.38409 225.43972 233.76347 225.14258 234.15234 C 228.04307 234.15282 230.54598 235.20614 232.65039 237.31055 C 234.75528 239.41544 235.80859 241.91702 235.80859 244.81836 C 235.80859 247.23021 235.09643 249.3546 233.69727 251.19922 C 233.70255 251.19923 233.7076 251.19922 233.71289 251.19922 C 236.67111 251.19922 239.17465 250.17691 241.22266 248.12891 C 243.32755 246.02401 244.37891 243.49143 244.37891 240.5332 C 244.37891 237.63187 243.32755 235.12833 241.22266 233.02344 C 239.11777 230.91855 236.61423 229.86719 233.71289 229.86719 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path876"
+       style="font-size:10.5833px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';letter-spacing:2.11667px;word-spacing:0px;stroke:#d4aa00;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#d4aa00"
+       d="M 306.60156 217.08594 L 306.60156 234.15234 L 329.64062 234.15234 L 329.64062 272.55273 L 346.70898 272.55273 L 346.70898 268.26758 L 338.21289 268.26758 L 338.21289 229.86719 L 315.17383 229.86719 L 315.17383 217.08594 L 306.60156 217.08594 z M 355.2793 229.86719 L 355.2793 234.15234 L 363.77539 234.15234 L 363.77539 229.86719 L 355.2793 229.86719 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path874"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke:#2ca02c;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#2ca02c"
+       d="M 251.10156 217.08594 L 251.10156 234.15234 L 257.07422 234.15234 L 257.07422 272.55273 L 274.14062 272.55273 L 274.14062 268.26758 L 265.64648 268.26758 L 265.64648 229.86719 L 259.67383 229.86719 L 259.67383 217.08594 L 251.10156 217.08594 z M 282.71289 227.30664 L 282.71289 231.5918 L 286.08789 231.5918 C 289.49288 231.5918 291.19871 233.00929 291.20703 235.83984 L 294.66016 235.83984 C 298.07349 235.83984 299.7793 234.41867 299.7793 231.57422 C 299.7793 228.72977 298.07349 227.30664 294.66016 227.30664 L 282.71289 227.30664 z M 301.8125 250.00586 C 300.61428 250.23342 299.36649 250.34766 298.07227 250.34766 L 282.71289 250.34766 L 282.71289 254.63281 L 289.50195 254.63281 C 294.25653 254.63281 298.35354 253.07696 301.8125 250.00586 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path851"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke:#37c837;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#55ff55"
+       d="m 69.174306,63.64112 q 0,3.025425 -2.167469,5.192894 -2.144891,2.144891 -5.170316,2.144891 -3.048003,0 -5.192894,-2.144891 -2.144891,-2.144891 -2.144891,-5.192894 0,-3.025426 2.144891,-5.170317 2.167469,-2.167468 5.192894,-2.167468 3.025425,0 5.170316,2.167468 2.167469,2.144891 2.167469,5.170317 z m -4.51556,0 q 0,-1.151468 -0.835379,-1.986847 -0.835378,-0.835378 -1.986846,-0.835378 -1.174046,0 -2.009424,0.835378 -0.812801,0.812801 -0.812801,1.986847 0,1.174045 0.812801,2.009424 0.835378,0.812801 2.009424,0.812801 1.174045,0 1.986846,-0.812801 0.835379,-0.835379 0.835379,-2.009424 z" />
+    <path
+       id="path878"
+       style="font-size:10.5833px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';letter-spacing:2.11667px;word-spacing:0px;stroke:#d4aa00;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#d4aa00"
+       d="M 370.10156 217.08594 L 370.10156 234.15234 L 376.07422 234.15234 L 376.07422 272.55273 L 393.14062 272.55273 L 393.14062 268.26758 L 384.64648 268.26758 L 384.64648 229.86719 L 378.67383 229.86719 L 378.67383 217.08594 L 370.10156 217.08594 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path855"
+       style="font-size:10.5833px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';letter-spacing:2.11667px;word-spacing:0px;stroke:#ffcc00;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffdd55"
+       d="m 98.516627,60.818895 h -4.515561 v 10.16001 h -4.51556 V 60.818895 H 83.3895 v -4.51556 h 15.127127 z" />
+    <path
+       id="path880"
+       style="font-size:10.5833px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';letter-spacing:2.11667px;word-spacing:0px;stroke:#d4aa00;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#d4aa00"
+       d="M 399.43555 217.08594 L 399.43555 234.15234 L 405.4082 234.15234 L 405.4082 272.55273 L 422.47461 272.55273 L 422.47461 268.26758 L 413.98047 268.26758 L 413.98047 229.86719 L 408.00586 229.86719 L 408.00586 217.08594 L 399.43555 217.08594 z M 448.07422 217.08594 L 441.02148 227.43164 L 443.8457 231.57422 L 453.72461 217.08594 L 448.07422 217.08594 z M 431.04688 249.49414 L 431.04688 266.35156 L 435.27539 272.55273 L 441.02148 264.125 L 431.04688 249.49414 z M 456.64648 249.49414 L 448.07422 262.06641 L 448.07422 272.55273 L 465.14258 272.55273 L 465.14258 268.26758 L 456.64648 268.26758 L 456.64648 249.49414 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path857"
+       style="font-size:10.5833px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';letter-spacing:2.11667px;word-spacing:0px;stroke:#ffcc00;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffdd55"
+       d="m 106.28657,70.978905 h -4.51556 v -10.16001 h -1.58045 v -4.51556 h 6.09601 z" />
+    <path
+       id="path853"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke:#37c837;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#55ff55"
+       d="m 83.832237,61.270451 q 0,2.05458 -1.467557,3.522137 -1.444979,1.444979 -3.499559,1.444979 h -4.064004 v 4.741338 h -4.51556 v -10.16001 h -1.580446 v -4.51556 h 10.16001 q 2.05458,0 3.499559,1.467557 1.467557,1.444979 1.467557,3.499559 z m -4.51556,0 q 0,-1.12889 -1.354668,-1.12889 h -3.160892 v 2.25778 h 3.160892 q 1.354668,0 1.354668,-1.12889 z" />
+    <path
+       id="path882"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke:#2ca089;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#2ca089"
+       d="M 471.43555 217.08594 L 471.43555 234.15234 L 490.37891 234.15234 L 477.4082 272.55273 L 495.32812 272.55273 L 496.77539 268.26758 L 485.98047 268.26758 L 498.95117 229.86719 L 480.00586 229.86719 L 480.00586 217.08594 L 471.43555 217.08594 z M 515.8457 232.93945 L 510.83203 247.67969 L 511.44922 249.49414 L 521.47852 249.49414 L 515.8457 232.93945 z M 506.20312 261.43945 L 504.75781 265.72656 L 516.91797 265.72656 L 519.22266 272.55273 L 537.14258 272.55273 L 535.69141 268.26758 L 527.79297 268.26758 L 525.48828 261.43945 L 506.20312 261.43945 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path859"
+       style="font-size:10.5833px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';letter-spacing:2.11667px;word-spacing:0px;stroke:#ffcc00;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffdd55"
+       d="m 125.33659,70.978905 h -4.51556 v -4.967116 l -3.38667,4.967116 -3.38667,-4.967116 v 4.967116 h -4.51556 v -10.16001 h -1.58045 v -4.51556 h 6.09601 l 3.38667,4.967116 3.38667,-4.967116 h 4.51556 z" />
+    <path
+       id="path884"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke:#2ca089;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;fill:#2ca089"
+       d="M 535.43555 217.08594 L 535.43555 234.15234 L 541.4082 234.15234 L 541.4082 272.55273 L 592.60938 272.55273 L 592.60938 268.26758 L 549.98047 268.26758 L 549.98047 229.86719 L 544.00586 229.86719 L 544.00586 217.08594 L 535.43555 217.08594 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path861"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke:#5fd3bc;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#afe9dd"
+       d="m 144.38661,70.978905 h -4.74134 l -0.6096,-1.806224 h -5.10258 l -0.6096,1.806224 h -4.74134 l 3.43182,-10.16001 h -5.01227 v -4.51556 h 12.41779 z m -6.4121,-4.967116 -1.49013,-4.380094 -1.49014,4.380094 z" />
+    <path
+       id="path863"
+       style="font-size:22.5778px;line-height:0.8;font-family:'Distant Galaxy';-inkscape-font-specification:'Distant Galaxy';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke:#5fd3bc;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#afe9dd"
+       d="M 159.06218,70.978905 H 145.5155 v -10.16001 h -1.58045 v -4.51556 h 6.09601 v 10.16001 h 9.03112 z" />
+  </g>
+</svg>

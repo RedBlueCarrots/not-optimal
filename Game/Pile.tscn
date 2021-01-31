@@ -1,0 +1,101 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Game/Pile.gd" type="Script" id=1]
+[ext_resource path="res://Card_Images/Uno_Back.png" type="Texture" id=2]
+[ext_resource path="res://Card_Images/UNO_1.png" type="Texture" id=3]
+[ext_resource path="res://Cards/cardcheating.gd" type="Script" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 27.8639, 41.7712 )
+
+[node name="Pile" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="DrawC" type="Area2D" parent="."]
+position = Vector2( -60, -60 )
+collision_mask = 0
+
+[node name="Sprite" type="Sprite" parent="DrawC"]
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DrawC"]
+shape = SubResource( 1 )
+
+[node name="DrawO" type="Area2D" parent="."]
+position = Vector2( 60, -60 )
+collision_mask = 0
+
+[node name="Sprite" type="Sprite" parent="DrawO"]
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DrawO"]
+shape = SubResource( 1 )
+
+[node name="Closed" type="Node2D" parent="."]
+position = Vector2( -60, 60 )
+
+[node name="Tween" type="Tween" parent="Closed"]
+
+[node name="Old_Cards" type="Node2D" parent="Closed"]
+z_index = -10
+
+[node name="Current_Effect" type="Node2D" parent="Closed"]
+
+[node name="Sprite" type="Sprite" parent="Closed/Current_Effect"]
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 3 )
+
+[node name="Current_Card" type="Node2D" parent="Closed"]
+z_index = 10
+
+[node name="Sprite2" type="Node2D" parent="Closed/Current_Card"]
+script = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="Closed/Current_Card/Sprite2"]
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 3 )
+
+[node name="Tween" type="Tween" parent="Closed/Current_Card/Sprite2"]
+
+[node name="View" type="Area2D" parent="Closed"]
+collision_layer = 16
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Closed/View"]
+shape = SubResource( 1 )
+
+[node name="Open" type="Node2D" parent="."]
+position = Vector2( 60, 60 )
+
+[node name="Tween" type="Tween" parent="Open"]
+
+[node name="Old_Cards" type="Node2D" parent="Open"]
+z_index = -10
+
+[node name="Current_Effect" type="Node2D" parent="Open"]
+position = Vector2( -120, 0 )
+
+[node name="Sprite" type="Sprite" parent="Open/Current_Effect"]
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 3 )
+
+[node name="Current_Card" type="Node2D" parent="Open"]
+z_index = 10
+
+[node name="Sprite2" type="Node2D" parent="Open/Current_Card"]
+script = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="Open/Current_Card/Sprite2"]
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 3 )
+
+[node name="Tween" type="Tween" parent="Open/Current_Card/Sprite2"]
+
+[node name="View" type="Area2D" parent="Open"]
+collision_layer = 16
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Open/View"]
+shape = SubResource( 1 )

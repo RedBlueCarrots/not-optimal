@@ -1,0 +1,92 @@
+[gd_resource type="Theme" load_steps=10 format=2]
+
+[ext_resource path="res://Themes/lemon/Lemon-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Themes/new_styleboxflat.tres" type="StyleBox" id=2]
+[ext_resource path="res://Themes/button_style.tres" type="StyleBox" id=3]
+[ext_resource path="res://Themes/button_style_hover.tres" type="StyleBox" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 48
+outline_size = 4
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 24
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 1, 1, 1, 0.913725 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.996078, 0.996078, 0.811765, 1 )
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+expand_margin_left = 12.0
+expand_margin_right = 12.0
+expand_margin_top = 12.0
+expand_margin_bottom = 12.0
+
+[sub_resource type="DynamicFont" id=5]
+size = 48
+outline_size = 3
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[resource]
+default_font = SubResource( 5 )
+Button/colors/font_color = Color( 0, 0, 0, 1 )
+Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
+Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = SubResource( 1 )
+Button/styles/disabled = ExtResource( 3 )
+Button/styles/focus = ExtResource( 4 )
+Button/styles/hover = ExtResource( 4 )
+Button/styles/normal = ExtResource( 3 )
+Button/styles/pressed = ExtResource( 4 )
+Dialogs/constants/button_margin = 32
+Dialogs/constants/margin = 8
+LineEdit/colors/clear_button_color = Color( 0.88, 0.88, 0.88, 1 )
+LineEdit/colors/clear_button_color_pressed = Color( 1, 1, 1, 1 )
+LineEdit/colors/cursor_color = Color( 0.94, 0.94, 0.94, 1 )
+LineEdit/colors/font_color = Color( 0.996078, 0.996078, 0.843137, 1 )
+LineEdit/colors/font_color_selected = Color( 0, 0, 0, 1 )
+LineEdit/colors/font_color_uneditable = Color( 0.88, 0.88, 0.88, 0.5 )
+LineEdit/colors/selection_color = Color( 1, 1, 1, 0.65098 )
+LineEdit/constants/minimum_spaces = 12
+LineEdit/fonts/font = SubResource( 2 )
+LineEdit/icons/clear = null
+LineEdit/styles/focus = ExtResource( 2 )
+LineEdit/styles/normal = ExtResource( 2 )
+LineEdit/styles/read_only = ExtResource( 2 )
+MenuButton/colors/font_color = Color( 0, 0, 0, 1 )
+MenuButton/colors/font_color_disabled = Color( 1, 1, 1, 0.3 )
+MenuButton/colors/font_color_hover = Color( 0.329412, 0.329412, 0.329412, 1 )
+MenuButton/colors/font_color_pressed = Color( 0.517647, 0.517647, 0.517647, 1 )
+MenuButton/constants/hseparation = 3
+MenuButton/fonts/font = null
+MenuButton/styles/disabled = null
+MenuButton/styles/focus = null
+MenuButton/styles/hover = null
+MenuButton/styles/normal = null
+MenuButton/styles/pressed = null
+PopupDialog/styles/panel = SubResource( 3 )
+WindowDialog/colors/title_color = Color( 0, 0, 0, 1 )
+WindowDialog/constants/close_h_ofs = 18
+WindowDialog/constants/close_v_ofs = 18
+WindowDialog/constants/scaleborder_size = 4
+WindowDialog/constants/title_height = 20
+WindowDialog/fonts/title_font = null
+WindowDialog/icons/close = null
+WindowDialog/icons/close_highlight = null
+WindowDialog/styles/panel = SubResource( 4 )

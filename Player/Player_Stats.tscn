@@ -1,0 +1,117 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Themes/player_icon_h.tres" type="StyleBox" id=1]
+[ext_resource path="res://Themes/new_styleboxflat.tres" type="StyleBox" id=2]
+[ext_resource path="res://Themes/lemon/Lemon-Regular.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Themes/player_icon_unh.tres" type="StyleBox" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 36
+outline_size = 4
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 24
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 36
+outline_size = 3
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="Theme" id=4]
+default_font = SubResource( 3 )
+Button/colors/font_color = Color( 0, 0, 0, 1 )
+Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
+Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = SubResource( 1 )
+Button/styles/disabled = ExtResource( 4 )
+Button/styles/focus = ExtResource( 1 )
+Button/styles/hover = ExtResource( 1 )
+Button/styles/normal = ExtResource( 4 )
+Button/styles/pressed = ExtResource( 1 )
+LineEdit/colors/clear_button_color = Color( 0.88, 0.88, 0.88, 1 )
+LineEdit/colors/clear_button_color_pressed = Color( 1, 1, 1, 1 )
+LineEdit/colors/cursor_color = Color( 0.94, 0.94, 0.94, 1 )
+LineEdit/colors/font_color = Color( 0.996078, 0.996078, 0.843137, 1 )
+LineEdit/colors/font_color_selected = Color( 0, 0, 0, 1 )
+LineEdit/colors/font_color_uneditable = Color( 0.88, 0.88, 0.88, 0.5 )
+LineEdit/colors/selection_color = Color( 1, 1, 1, 0.65098 )
+LineEdit/constants/minimum_spaces = 12
+LineEdit/fonts/font = SubResource( 2 )
+LineEdit/icons/clear = null
+LineEdit/styles/focus = ExtResource( 2 )
+LineEdit/styles/normal = ExtResource( 2 )
+LineEdit/styles/read_only = ExtResource( 2 )
+
+[node name="Player_Stats" type="HBoxContainer"]
+margin_right = 130.0
+margin_bottom = 100.0
+theme = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Button" parent="."]
+margin_right = 48.0
+margin_bottom = 100.0
+focus_mode = 0
+enabled_focus_mode = 0
+text = " i "
+
+[node name="HLight" type="ColorRect" parent="Label"]
+visible = false
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -8.0
+margin_top = -8.0
+margin_right = 94.0
+margin_bottom = 8.0
+mouse_filter = 2
+color = Color( 1, 0.909804, 0.415686, 0.862745 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VSeparator" type="VSeparator" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 52.0
+margin_right = 56.0
+margin_bottom = 100.0
+
+[node name="VSeparator2" type="VSeparator" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 60.0
+margin_right = 64.0
+margin_bottom = 100.0
+
+[node name="VSeparator3" type="VSeparator" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 68.0
+margin_right = 72.0
+margin_bottom = 100.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 76.0
+margin_right = 130.0
+margin_bottom = 100.0
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+margin_right = 54.0
+margin_bottom = 48.0
+text = "00"
+
+[node name="Label2" type="Label" parent="VBoxContainer"]
+margin_top = 52.0
+margin_right = 54.0
+margin_bottom = 100.0
+text = "00"
+__meta__ = {
+"_edit_use_anchors_": false
+}
