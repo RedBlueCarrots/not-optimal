@@ -33,7 +33,7 @@ sync var restricted_piles = [false, false]
 var someone_else = preload("res://Game/Someone_Else.tscn")
 
 sync var stacking = [0, 0]
-
+sync var game_end = false
 sync var can_play_ = true
 
 var waiting_on = ["", 0]
@@ -459,6 +459,7 @@ sync func game_win(player, catch):
 	$Pile/Closed/Current_Card.z_index = 0
 	$Pile/Open/Current_Card.z_index = 0
 	rset("can_play_", false)
+	rset("game_end", true)
 	stacking = [0, 0]
 	if get_tree().is_network_server():
 		for f in Network.player_data:
@@ -514,8 +515,18 @@ sync func remove_player(nam):
 		if Network.player_data[z]["num"] == current_turn:
 			update_cards(z)
 
-func chat_effect(tex):
+func chat_effect(tex: String):
 	if tex == "/r":
 		Network.player_data[Network.own_name]["active"] = false
 		get_tree().change_scene("res://Menus/Reload.tscn")
+	if tex.substr(0, 5) == "/kick" and get_tree().is_network_server():
+		if Network.player_data.find(tex.substr(5, -1)) != -1:
+			rpc("remove_player", tex.substr(5, -1))
+	if tex == "/throw" and game_end:
+		rpc("do_throw", own_nam)
 
+sync func do_throw(nam: String):
+	for j in $Players.get_children():
+		if j.player_name == nam:
+			j.init_throw()
+			return

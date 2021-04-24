@@ -33,6 +33,7 @@ sync func add_message(pname, pmessage):
 func _on_LineEdit_text_entered(new_text):
 	if new_text.begins_with("/"):
 		get_tree().current_scene.chat_effect(new_text)
+		player_input.text = ""
 		return
 	rpc("add_message", Network.own_name, new_text)
 	player_input.text = ""

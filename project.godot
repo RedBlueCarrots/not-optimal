@@ -10,14 +10,13 @@ config_version=4
 
 _global_script_classes=[  ]
 _global_script_class_icons={
-
 }
 
 [application]
 
 config/name="Uno_v2"
 run/main_scene="res://Menus/Start_Scene.tscn"
-config/icon="res://icon.png"
+config/icon="res://ActualIcon.png"
 
 [autoload]
 

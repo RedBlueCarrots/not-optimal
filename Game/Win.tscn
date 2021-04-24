@@ -1,7 +1,6 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Game/Sparkles.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Themes/Win.tres" type="Theme" id=2]
+[ext_resource path="res://Themes/Waiting_Room.tres" type="Theme" id=2]
 [ext_resource path="res://Game/Win.gd" type="Script" id=3]
 
 [node name="Win" type="Node2D"]
@@ -9,99 +8,61 @@ position = Vector2( 512, 300 )
 scale = Vector2( 1.2, 1.2 )
 script = ExtResource( 3 )
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="Node" type="Node" parent="."]
 
-[node name="Particles2D" parent="Node2D" instance=ExtResource( 1 )]
-position = Vector2( -200, -200 )
-
-[node name="Particles2D2" parent="Node2D" instance=ExtResource( 1 )]
-position = Vector2( 200, -200 )
-
-[node name="Particles2D3" parent="Node2D" instance=ExtResource( 1 )]
-position = Vector2( 200, 200 )
-
-[node name="Particles2D4" parent="Node2D" instance=ExtResource( 1 )]
-position = Vector2( -200, 200 )
-
-[node name="Timer" type="Timer" parent="."]
-wait_time = 2.0
-one_shot = true
-
-[node name="PanelContainer" type="PanelContainer" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -1257.0
-margin_top = -426.0
-margin_right = 1257.0
-margin_bottom = 426.0
-rect_scale = Vector2( 0.2, 0.2 )
-rect_pivot_offset = Vector2( 1257, 426 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="CenterContainer" type="CenterContainer" parent="PanelContainer"]
-margin_left = 7.0
-margin_top = 7.0
-margin_right = 2507.0
-margin_bottom = 845.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="VBoxContainer" type="VBoxContainer" parent="Node"]
+anchor_right = 1.0
+anchor_bottom = 1.0
 theme = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/CenterContainer"]
-margin_right = 2500.0
-margin_bottom = 838.0
-
-[node name="Player" type="Label" parent="PanelContainer/CenterContainer/VBoxContainer"]
-margin_right = 2500.0
-margin_bottom = 100.0
+[node name="Player" type="Label" parent="Node/VBoxContainer"]
+margin_right = 1024.0
+margin_bottom = 63.0
 text = "Player"
 align = 1
 
-[node name="Label" type="Label" parent="PanelContainer/CenterContainer/VBoxContainer"]
-margin_top = 104.0
-margin_right = 2500.0
-margin_bottom = 307.0
-text = "Wins!
-"
+[node name="Line3" type="Label" parent="Node/VBoxContainer"]
+margin_top = 67.0
+margin_right = 1024.0
+margin_bottom = 130.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "                         "
 align = 1
 
-[node name="Line" type="Label" parent="PanelContainer/CenterContainer/VBoxContainer"]
-margin_top = 311.0
-margin_right = 2500.0
-margin_bottom = 514.0
+[node name="Line" type="Label" parent="Node/VBoxContainer"]
+margin_top = 134.0
+margin_right = 1024.0
+margin_bottom = 263.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "And everybody lived happily ever after"
 align = 1
 autowrap = true
 
-[node name="Line2" type="Label" parent="PanelContainer/CenterContainer/VBoxContainer"]
-margin_top = 518.0
-margin_right = 2500.0
-margin_bottom = 618.0
+[node name="Line2" type="Label" parent="Node/VBoxContainer"]
+margin_top = 267.0
+margin_right = 1024.0
+margin_bottom = 330.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "                         "
 align = 1
 
-[node name="New" type="Button" parent="PanelContainer/CenterContainer/VBoxContainer"]
-margin_top = 622.0
-margin_right = 2500.0
-margin_bottom = 728.0
+[node name="New" type="Button" parent="Node/VBoxContainer"]
+margin_top = 334.0
+margin_right = 1024.0
+margin_bottom = 397.0
 text = "New Game"
 
-[node name="Exit" type="Button" parent="PanelContainer/CenterContainer/VBoxContainer"]
-margin_top = 732.0
-margin_right = 2500.0
-margin_bottom = 838.0
+[node name="Exit" type="Button" parent="Node/VBoxContainer"]
+margin_top = 401.0
+margin_right = 1024.0
+margin_bottom = 464.0
 text = "Exit Game"
-[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
-[connection signal="pressed" from="PanelContainer/CenterContainer/VBoxContainer/New" to="." method="_on_New_pressed"]
-[connection signal="pressed" from="PanelContainer/CenterContainer/VBoxContainer/Exit" to="." method="_on_Exit_pressed"]
+
+[connection signal="pressed" from="Node/VBoxContainer/New" to="." method="_on_New_pressed"]
+[connection signal="pressed" from="Node/VBoxContainer/Exit" to="." method="_on_Exit_pressed"]

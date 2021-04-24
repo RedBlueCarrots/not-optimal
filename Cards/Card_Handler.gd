@@ -31,6 +31,12 @@ func _process(delta):
 	$Player_Stats/VBoxContainer/Label.text = str($Open.get_child_count())
 	$Player_Stats/VBoxContainer/Label2.text = str($Closed.get_child_count())
 
+func init_throw():
+	for i in $Closed.get_children():
+		i.throw()
+	for i in $Open.get_children():
+		i.throw()
+
 
 
 

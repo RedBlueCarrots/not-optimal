@@ -120,6 +120,12 @@ func draw_card(value, pile):
 func check_cards(handd):
 	pass
 
+func init_throw():
+	for i in $Closed.get_children():
+		i.throw()
+	for i in $Open.get_children():
+		i.throw()
+
 func create_card(val):
 		var newer_card = new_card.instance()
 		add_child(newer_card)

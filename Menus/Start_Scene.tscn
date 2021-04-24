@@ -638,6 +638,7 @@ light_energy = 10.0
 light_specular = 0.07
 shadow_enabled = true
 omni_range = 607.2
+
 [connection signal="pressed" from="Control/HBoxContainer/VBox1/Host" to="." method="_on_Host_pressed"]
 [connection signal="pressed" from="Control/HBoxContainer/VBox1/Options" to="." method="_on_Options_pressed"]
 [connection signal="pressed" from="Control/HBoxContainer/VBox2/Join" to="." method="_on_Join_pressed"]

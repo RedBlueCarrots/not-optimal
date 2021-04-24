@@ -261,6 +261,7 @@ __meta__ = {
 }
 
 [node name="Options" parent="Control" instance=ExtResource( 10 )]
+
 [connection signal="animation_finished" from="Arrow/AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
 [connection signal="pressed" from="Reconnect" to="." method="_on_Reconnect_pressed"]
 

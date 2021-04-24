@@ -105,3 +105,9 @@ func _on_Tween_tween_all_completed():
 
 func set_image(c):
 	load_image(c)
+
+func throw():
+	var dir = global_position.direction_to(Vector2(512, 300))
+	var dist = global_position.distance_to(Vector2(512, 300))
+	$Tween3.interpolate_property(self, "global_position", global_position, global_position + (dist * (randf()*0.8 + 0.7) + (randf()*250 + 50)) * dir.rotated(deg2rad(randf() * 45 - 22.5)), (randf() * 2 + 1)/3.5, Tween.TRANS_CUBIC, Tween.EASE_OUT)
+	$Tween3.start()

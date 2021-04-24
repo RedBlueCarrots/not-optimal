@@ -12,15 +12,12 @@ var catchphrases = [
 
 func _ready():
 	$Timer.start()
+	if not get_tree().is_network_server():
+		$Node/VBoxContainer/New.visible = false
 
 func set_nam(nam, catch):
-	$PanelContainer/CenterContainer/VBoxContainer/Player.text = nam
-	$PanelContainer/CenterContainer/VBoxContainer/Line.text = catchphrases[catch]
-
-func _on_Timer_timeout():
-	for ty in $Node2D.get_children():
-		ty.emitting = true
-	$PanelContainer.visible = true
+	$Node/VBoxContainer/Player.text = nam + " Wins!"
+	$Node/VBoxContainer/Line.text = catchphrases[catch]
 
 
 func _on_New_pressed():
